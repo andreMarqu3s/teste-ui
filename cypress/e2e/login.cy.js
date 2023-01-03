@@ -24,9 +24,3 @@ describe("empty spec", () => {
     cy.get('.woocommerce-error').should('contain', 'Erro: a senha fornecida para o e-mail')
   });
 });
-
-// /// <reference types="cypress" />
-
-// context('Funcionalidade Login', () => {
-
-// });
