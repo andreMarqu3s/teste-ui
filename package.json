@@ -19,5 +19,8 @@
   "homepage": "https://github.com/andreMarqu3s/teste-ui#readme",
   "devDependencies": {
     "cypress": "^12.2.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0"
   }
 }
