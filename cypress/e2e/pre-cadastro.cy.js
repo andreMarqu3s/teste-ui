@@ -26,4 +26,10 @@ describe('Funcionalidade Pré Cadastro', () => {
       'Detalhes da conta modificados com sucesso'
     )
   });
+
+  it.only('Deve completar o pre-cadastro com sucesso - Usando comandos customizados', () => {
+    let emailFaker2 = faker.internet.email();
+
+    cy.preCadastro(emailFaker2, 'senha!@#forte', 'Fábio', 'Araújo')
+  });
 });
